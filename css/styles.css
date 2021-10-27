@@ -343,8 +343,7 @@ margin-bottom: 16px;
     background-color: var(--background-color);
 }
 .social-list{
-    transition: background 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     display: flex;
     border: 1px transparent;
@@ -386,8 +385,7 @@ margin-bottom: 16px;
 }
 
 .client-link{
-    transition: fill 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill:#AFB1B8 ;
     display: flex;
     justify-content: center;
@@ -517,8 +515,7 @@ color: var(--white-color);
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-button{
-    transition: backgroung 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 font-family: 'Roboto';
 font-style: normal;
 font-size: 16px;
