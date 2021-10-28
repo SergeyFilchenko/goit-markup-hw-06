@@ -204,6 +204,14 @@ right: 8px;
 width: 30px;
 height: 30px
 }
+.modal-text{
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
 
 /* Описание */
 .container{
