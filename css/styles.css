@@ -294,7 +294,7 @@ cursor: pointer;
 border-radius: 4px;
 background-repeat: no-repeat;
 }
-.box-licence:checked + .check{
+.box-licence input:checked + .check{
     background-color: var(--background-color);
 }
 .modal-licence{
