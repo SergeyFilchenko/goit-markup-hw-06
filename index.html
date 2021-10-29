@@ -63,40 +63,40 @@
                 <svg class="close" data-modal-close>
                     <use href="./images/symbol-defs.svg#icon-close" width="30px" height="30px"></use>
                 </svg>
-                <form action="">
+                <form action="" class="modal-form">
                     <h3 class="modal-text">Оставьте свои данные, мы вам перезвоним</h3>
-                    <div>
-                        <label for="name">Имя</label>
-                        <input type="text" name="name" id="name">
-                        <svg width="12px" height="12px">
+                    <div class="form-field">
+                        <label for="name" class="madal-label">Имя</label>
+                        <input type="text" name="name" id="name" class="modal-input">
+                        <svg width="12px" height="12px" class="modal-icon">
                             <use href="./images/sprite.svg#icon-Vector"></use>
                         </svg>
                     </div>
-                    <div>
-                        <label for="tel">Телефон</label>
-                        <input type="text" name="tel" id="tel">
-                        <svg width="13px" height="13px">
+                    <div class="form-field">
+                        <label for="tel" class="madal-label">Телефон</label>
+                        <input type="text" name="tel" id="tel" class="modal-input">
+                        <svg width="13px" height="13px" class="modal-icon">
                             <use href="./images/sprite.svg#icon-Vector-phone"></use>
                         </svg>
                     </div>
-                    <div>
-                        <label for="mail">Почта</label>
-                        <input type="text" name="mail" id="mail">
-                        <svg width="15px" height="12px">
+                    <div class="form-field">
+                        <label for="mail" class="madal-label">Почта</label>
+                        <input type="text" name="mail" id="mail" class="modal-input">
+                        <svg width="15px" height="12px" class="modal-icon">
                             <use href="./images/sprite.svg#icon-Vector-mail"></use>
                         </svg>
                     </div>
-                    <div>
-                        <label for="comment">Комментарий</label>
-                        <input type="text" name="comment" id="comment" placeholder="Введите текст">
+                    <div class="form-field">
+                        <label for="comment" class="madal-label">Комментарий</label>
+                        <input type="text" name="comment" id="comment" placeholder="Введите текст" class="comment">
                     </div>
-                    <div>
+                    <div class="box-licence">
                         <label for="">
-                            <input type="checkbox">
-                            <span></span>
-                            <span>Соглашаюсь с рассылкой и принимаю Условия договора</span>
+                            <input type="checkbox" class="hidden">
+                            <span class="check"></span>
+                            <span>Соглашаюсь с рассылкой и принимаю <span class="modal-agreements">Условия договора</span></span>
                         </label>
-                        <button type="submit"></button>
+                        <button type="submit" class="madal-button">Отправить</button>
                     </div>
                 </form>
             </div>
