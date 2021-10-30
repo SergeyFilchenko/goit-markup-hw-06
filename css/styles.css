@@ -197,17 +197,27 @@ background: rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
 .close:hover, .close:focus{
-    fill: var(--background-color);
-    
+    fill: var(--background-color); 
+}
+.close1{
+position: absolute;
+top: 8px;
+right: 9px;
+width: 30px;
+height: 30px;
+border: transparent;
+background: var(--white-color);
+
 }
 .close{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 cursor: pointer;
 position: absolute;
-top: 8px;
-right: 8px;
+top: 5px;
+right: 5px;
 width: 30px;
-height: 30px
+height: 30px;
+
 }
 .modal-form{
     padding: 40px;
