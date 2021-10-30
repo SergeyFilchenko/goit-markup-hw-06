@@ -257,6 +257,7 @@ height: 40px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px;
+outline-color: var(--background-color);
 }
 .comment{
 padding: 12px 16px;
@@ -597,6 +598,7 @@ box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background: #2F303A;
+color: rgba(255, 255, 255, 0.6);
 }
 .form-button{
     cursor: pointer;
