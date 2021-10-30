@@ -283,6 +283,7 @@ justify-content: center;
     visibility: hidden;
 }
 .check{
+    position: relative;
 margin-right: 9px;
 border: 2px solid;
 display: inline-block;
@@ -294,6 +295,7 @@ cursor: pointer;
 border-radius: 4px;
 background-repeat: no-repeat;
 }
+
 .box-licence input:checked + .check{
     background-color: var(--background-color);
 }
